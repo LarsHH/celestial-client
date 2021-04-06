@@ -4,9 +4,7 @@ This is the accompanying Python client to [www.celestial-automl.com](www.celesti
 ## Installation
 
 ```
-git clone https://github.com/LarsHH/celestial-client.git
-cd celestial-client
-pip install -e .
+pip install celestial-client
 ```
 
 ## Usage
