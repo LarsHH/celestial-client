@@ -24,3 +24,16 @@ for _ in range(number_of_trials):
 
     trial.submit_result(loss=<your loss value>)
 ```
+
+## Examples
+
+A full example can be run as:
+```
+cd celestial-client
+python examples/mlp.py --study-id <your-study-id>
+```
+
+Note that this requires scikit-learn, e.g.
+```
+pip install sklearn
+```
